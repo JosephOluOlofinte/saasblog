@@ -6,10 +6,10 @@ type Size = "small" | "medium" | "large";
 
  type ButtonProps = {
 
-    text?: string; 
+    text: string; 
     url?: string;
-    variant?: "primary" | "secondary" | "danger";
-    size?: "small" | "medium" | "large"; 
+    variant: "primary" | "secondary" | "danger";
+    size: "small" | "medium" | "large"; 
     type?: "button" | "submit" | "reset";
     className?: string;
     onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
