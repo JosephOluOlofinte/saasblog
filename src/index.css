@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    h1 {
+        @apply font-brandFont;
+    }
+
+    h2 {
+        @apply font-brandFont;
+    }
+
+    h3 {
+        @apply font-brandFont;
+    }
+
+    h4 {
+        @apply font-brandFont;
+    }
+
+    h5 {
+        @apply font-brandFont;
+    }
+
+    h6 {
+        @apply font-brandFont;
+    }
+
+    body {
+        @apply font-brandFont;
+    }
+
+}
+
