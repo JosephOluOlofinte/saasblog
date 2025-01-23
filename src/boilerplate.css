@@ -11,8 +11,9 @@ html,
 }
 
 .contain {
-    max-width: 1920px;
+    max-width: 1280px;
     margin: 0 auto;
+    /* background-color: white; */
 }
 
 /* Base font styles for the document */
@@ -21,6 +22,9 @@ html {
     line-height: 1.6; /* Base line height for readability */
   }
   
+  body {
+    background-color: whitesmoke;
+  }
   body, p {
     font-size: 1rem; /* 16px for base body text */
     line-height: 1.4; /* Increase line height slightly for better readability */
