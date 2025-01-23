@@ -2,7 +2,7 @@
 
 const Sidebar = () => {
   return (
-    <div className="grid col-span-3 bg-brandBlue">Sidebar</div>
+    <div className="lgtablet:grid lgtablet:col-span-3">Sidebar</div>
   )
 }
 

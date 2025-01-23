@@ -7,13 +7,13 @@ export default {
   theme: {
     screens: {
       'mobile': '390px',
-      'xlmobile': '480px',
+      'lgmobile': '480px',
       'tablet': '640px',
-      'xltablet': '768px',
+      'lgtablet': '768px',
       'laptop': '1044px',
       'lglaptop': '1280px',
       'desktop': '1440px',
-      'xldesktop': '1920px',
+      'lgdesktop': '1920px',
     },
     extend: {
       fontFamily: {

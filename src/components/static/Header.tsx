@@ -11,15 +11,18 @@ const Header = () => {
           <div>
             <h1 className="text-[28px] font-extrabold">SaaS Blog</h1>
           </div>
-          <nav>
-            <ul className="flex gap-[20px] items-center font-medium">
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>Email Marketing</li></a>
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>Content Marketing</li></a>
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>SEM</li></a>
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>SMM</li></a>
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>Services</li></a>
-              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50"><li>About</li></a>
+          <nav className="">
+            <ul className="flex gap-[10px] items-center font-medium">
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>Email Marketing</li></a>
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>Content Marketing</li></a>
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>SEM</li></a>
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>SMM</li></a>
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden tablet:inline"><li>Services</li></a>
+              <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden tablet:inline"><li>About</li></a>
               <li><Button type="button" text="Contact" variant="primary" size="medium" url="#" /> </li>
+              <li className="ml-2  p-[4px] tablet:hidden cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-[34px] w-[34px]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg></li>
             </ul>
           </nav>
         </div>
