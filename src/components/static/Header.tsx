@@ -6,10 +6,10 @@ import { Button } from "../block"
 const Header = () => {
   return (
     <Fragment>
-      <header className="w-[100%] h-[75px] flex justify-center">
-        <div className="w-[90%] h-[100%] flex justify-between items-center ">
+      <header className="w-[100%] h-[75px] flex justify-center border-b-[2px] border-b-[#E9EFF2]">
+        <div className="w-[90%] h-[100%] flex justify-between items-center">
           <div>
-            <h1>LOGO</h1>
+            <h1 className="text-[28px] font-extrabold">SaaS Blog</h1>
           </div>
           <nav>
             <ul className="flex gap-[20px] items-center font-medium">

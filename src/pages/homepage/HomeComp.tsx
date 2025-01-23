@@ -1,8 +1,13 @@
 // import React from 'react'
 
+import { Fragment } from "react/jsx-runtime"
+import Hero from "./Hero"
+
 const HomeComp = () => {
   return (
-    <div>HomeComp</div>
+    <Fragment>
+      <Hero />
+    </Fragment>
   )
 }
 
