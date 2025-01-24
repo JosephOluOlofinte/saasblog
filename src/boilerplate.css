@@ -49,6 +49,15 @@ html {
   h4 { font-size: 1.5rem; /* 24px */ }
   h5 { font-size: 1.25rem; /* 20px */ }
   h6 { font-size: 1rem; /* 16px */ }
+
+  article p {
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+
+  article h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+  }
   
   /* Responsive font scaling */
   @media (max-width: 768px) {
