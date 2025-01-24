@@ -2,6 +2,7 @@
 
 import { createBrowserRouter } from "react-router-dom";
 import { HomeLayout } from "../layout";
+import PostPageLayout from "../layout/PostPageLayout";
 
 
 export const element = createBrowserRouter([
@@ -11,5 +12,10 @@ export const element = createBrowserRouter([
         children: [{
             index: true,
         }]
+    },
+
+    {
+        path: "/post-page",
+        element: <PostPageLayout />,
     }
 ])
