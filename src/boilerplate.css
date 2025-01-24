@@ -11,7 +11,7 @@ html,
 }
 
 .contain {
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
     /* background-color: white; */
 }
@@ -25,11 +25,15 @@ html {
   body {
     background-color: whitesmoke;
   }
-  body, p {
+  body, p, ul, ol {
     font-size: 1rem; /* 16px for base body text */
-    line-height: 1.4; /* Increase line height slightly for better readability */
+    line-height: 1.5; /* Increase line height slightly for better readability */
     color: #333; /* Standard text color */
     font-weight: 400;
+  }
+
+  li {
+    line-height: 1.5;
   }
   
   /* Typography scaling for headings */
@@ -49,8 +53,12 @@ html {
   /* Responsive font scaling */
   @media (max-width: 768px) {
     /* Mobile screens (375px to 768px) */
-    body, p {
+    body, p, ol, ul {
       font-size: 0.875rem; /* 14px */
+      line-height: 1.5;
+    }
+
+    li {
       line-height: 1.5;
     }
   
@@ -64,7 +72,7 @@ html {
   
   @media (min-width: 769px) and (max-width: 1024px) {
     /* Tablet screens (769px to 1024px) */
-    body, p {
+    body, p, ol, ul {
       font-size: 1rem; /* 16px */
       line-height: 1.5;
     }
@@ -79,8 +87,12 @@ html {
   
   @media (min-width: 1280px) and (max-width: 1920px) {
     /* Large screens (1025px to 1920px) */
-    body, p {
+    body, p, ol, ul {
       font-size: 1.125rem; /* 18px */
+      line-height: 1.6;
+    }
+
+    li {
       line-height: 1.6;
     }
   
@@ -94,8 +106,12 @@ html {
   
   @media (min-width: 1921px) {
     /* Extra-large screens (1921px and above) */
-    body, p {
+    body, p, ol, ul {
       font-size: 1.25rem; /* 20px */
+      line-height: 1.8;
+    }
+
+    li {
       line-height: 1.8;
     }
   

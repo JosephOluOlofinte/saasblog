@@ -8,7 +8,7 @@ import whiteX from '../../assets/images/twitter-white.png'
 
 const Sidebar = () => {
   return (
-    <div className="grid grid-cols-1 gap-[30px] max-w-[360px] laptop:col-span-4">
+    <div className="grid grid-cols-1 gap-[30px] max-w-[360px] lglaptop:max-w-none laptop:col-span-4">
       <div className="bg-brandBlue grid gap-[20px] w-[100%] p-[20px] rounded-[10px]">
         <div className='flex items-baseline gap-[25px]'>
           <div className='h-[110px] w-[110px] rounded-lg overflow-hidden border-[1px] border-[rgba(255,255,255,0.5)]'>
@@ -36,13 +36,13 @@ const Sidebar = () => {
 
       <div className='bg-absoluteWhite p-[20px] rounded-[10px]'>
         <p className='text-[18px] font-bold border-b-[1px] border-b-brandGrey pb-[5px]'>In this article</p>
-        <ul className='p-[20px] font-medium grid gap-[15px]'>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
-          <li><a href="">Exploring Generative AI in Content Creation</a></li>
+        <ul className='py-[20px] font-medium grid gap-[15px]'>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
+        <a href="#" className='pl-[20px] hover:text-brandBlue border-l-[3px] border-absoluteWhite hover:border-brandBlue ease-in-out duration-700 focus:border-brandBlue focus:text-brandBlue '><li>Exploring Generative AI in Content Creation</li></a>
         </ul>
       </div>
     </div>
