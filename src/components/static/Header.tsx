@@ -12,7 +12,7 @@ const Header = () => {
             <h1 className="text-[28px] pl-[30px] font-extrabold">SaaS Blog</h1>
           </div>
           <nav className="">
-            <ul className="flex gap-[10px] items-center font-medium">
+            <ul className="h-[100%] flex gap-[10px] items-center font-medium">
               <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>Email Marketing</li></a>
               <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>Content Marketing</li></a>
               <a href="#" className="py-[15px] px-[25px] hover:bg-blue-50 ease-in-out duration-500 focus:bg-blue-50 hidden lglaptop:inline"><li>SEM</li></a>
